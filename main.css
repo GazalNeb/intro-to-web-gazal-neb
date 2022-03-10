@@ -40,6 +40,9 @@ a:visited {
 .header .intro__description {
   font-size: 30px;
 }
+.header .intro__button {
+  margin: 30px;
+}
 
 .features {
   display: flex;
@@ -52,21 +55,21 @@ a:visited {
 .features__heading {
   font-size: 35px;
 }
-.features__table {
-  height: 1300px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 10px;
+.features__table__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
 }
 .features__table__points {
   font-size: 35px;
 }
 .features__table__points-main {
-  font-weight: heavy;
+  font-weight: bold;
 }
 .features__table__image {
   size: 50px;
+  padding: 20px;
 }
 
 .navigation {
@@ -79,7 +82,7 @@ a:visited {
 
 .button {
   display: block;
-  width: 100px;
+  width: 150px;
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
   background-color: #483D8B;
@@ -89,6 +92,7 @@ a:visited {
   border: none;
 }
 .button--navigation {
+  width: 100px;
   border: 2px solid #483D8B;
   background-color: #fafafa;
   color: #483D8B;

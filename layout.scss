@@ -31,6 +31,10 @@
   &__description {
     font-size: 30px;
   }
+
+  &__button {
+    margin: 30px;
+  }
 }
 }
 
@@ -47,22 +51,25 @@
   }
 
   &__table {
-    height: 1300px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    
+    &__row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+    }
 
     &__points {
     font-size: 35px;
     }
 
     &__points-main {
-      font-weight: heavy;
+      font-weight: bold;
     }
      
     &__image {
       size: 50px;
+      padding: 20px;
     }
   
   }
