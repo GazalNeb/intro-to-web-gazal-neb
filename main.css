@@ -41,6 +41,22 @@ a:visited {
   font-size: 30px;
 }
 
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.features__table {
+  height: 1300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
 .navigation {
   height: 20vh;
   padding: 40px 60px 40px 60px;
