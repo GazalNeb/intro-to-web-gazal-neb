@@ -18,11 +18,14 @@
   background-color: $color-primary;
   font-weight: bold;
   color: $color-white;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   
   &--navigation {
-    width: 100px;
+    height: 60px;
+    font-size: 30px;
     border: 2px solid $color-primary;
     background-color: $color-white;
     color: $color-primary;
