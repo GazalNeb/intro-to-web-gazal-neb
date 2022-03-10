@@ -1,0 +1,21 @@
+
+$font-body: arial;
+
+$color-primary: #483D8B;
+$color-secondary: #00BFFF;
+$color-tertiary: #FAFAD2;
+$color-black: #333333;
+$color-white: #fafafa;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font-body;
+  color: $color-primary;
+  background-color: $color-white;
+}
+
+a:link, 
+a:visited {
+  text-decoration: none;
+}

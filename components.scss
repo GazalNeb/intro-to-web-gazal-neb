@@ -1,5 +1,27 @@
 .navigation {
+  height: 20vh;
+  padding: 40px 60px 40px 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.button {
+  display: block;
+  width: 100px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  background-color: $color-primary;
+  font-weight: bold;
+  color: $color-white;
+  text-align: center;
+  border: none;
+  
+  &--navigation {
+    border: 2px solid $color-primary;
+    background-color: $color-white;
+    color: $color-primary;
+  }
+
+}
+

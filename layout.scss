@@ -1,0 +1,35 @@
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  &__heading {
+    color: $color-secondary;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  &__sub-heading {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  &__sub-heading-2 {
+    color: $color-secondary;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  &__description {
+    font-size: 30px;
+  }
+}
+}
