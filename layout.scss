@@ -43,8 +43,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  margin-top: 40px;
+  gap: 30px;
+  margin: 40px;
 
   &__heading {
     font-size: 35px;
@@ -56,7 +56,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-bottom: 40px;
     }
 
     &__points {
