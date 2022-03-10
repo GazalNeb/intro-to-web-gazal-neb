@@ -49,12 +49,24 @@ a:visited {
   gap: 40px;
   margin-top: 40px;
 }
+.features__heading {
+  font-size: 35px;
+}
 .features__table {
   height: 1300px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 10px;
+}
+.features__table__points {
+  font-size: 35px;
+}
+.features__table__points-main {
+  font-weight: heavy;
+}
+.features__table__image {
+  size: 50px;
 }
 
 .navigation {

@@ -34,7 +34,6 @@
 }
 }
 
-
 .features {
   display: flex;
   flex-direction: column;
@@ -43,12 +42,29 @@
   gap: 40px;
   margin-top: 40px;
 
+  &__heading {
+    font-size: 35px;
+  }
+
   &__table {
     height: 1300px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 10px;
+
+    &__points {
+    font-size: 35px;
+    }
+
+    &__points-main {
+      font-weight: heavy;
+    }
+     
+    &__image {
+      size: 50px;
+    }
+  
   }
 
 }
