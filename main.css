@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: arial;
-  color: #483D8B;
+  font-family: "Open Sans", sans-serif;
+  color: #27285C;
   background-color: #fafafa;
 }
 
@@ -25,7 +26,8 @@ a:visited {
 }
 .header .intro__heading {
   color: #00BFFF;
-  font-size: 50px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 45px;
   font-weight: bold;
 }
 .header .intro__sub-heading {
@@ -34,11 +36,13 @@ a:visited {
 }
 .header .intro__sub-heading-2 {
   color: #00BFFF;
+  font-family: "Work Sans", sans-serif;
   font-size: 40px;
   font-weight: bold;
 }
 .header .intro__description {
   font-size: 30px;
+  font-weight: normal;
 }
 .header .intro__button {
   margin: 30px;
@@ -54,6 +58,7 @@ a:visited {
 }
 .features__heading {
   font-size: 35px;
+  font-weight: bold;
 }
 .features__table__row {
   display: flex;
@@ -61,14 +66,46 @@ a:visited {
   align-items: center;
 }
 .features__table__points {
-  font-size: 35px;
+  font-size: 30px;
 }
 .features__table__points-main {
   font-weight: bold;
 }
+.features__table__points-sub {
+  font-style: italic;
+}
 .features__table__image {
   size: 50px;
   padding: 20px;
+}
+
+.navigation {
+  height: 20vh;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation__logo {
+  height: 125px;
+}
+
+.button {
+  display: block;
+  width: 150px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  background-color: #27285C;
+  font-weight: bold;
+  color: #fafafa;
+  text-align: center;
+  border: none;
+}
+.button--navigation {
+  width: 100px;
+  border: 2px solid #27285C;
+  background-color: #fafafa;
+  color: #27285C;
 }
 
 .footer {
@@ -84,30 +121,4 @@ a:visited {
   font-weight: bold;
   background-color: #FAFAD2;
   margin: 10px;
-}
-
-.navigation {
-  height: 20vh;
-  padding: 40px 60px 40px 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.button {
-  display: block;
-  width: 150px;
-  padding: 10px 20px 10px 20px;
-  border-radius: 5px;
-  background-color: #483D8B;
-  font-weight: bold;
-  color: #fafafa;
-  text-align: center;
-  border: none;
-}
-.button--navigation {
-  width: 100px;
-  border: 2px solid #483D8B;
-  background-color: #fafafa;
-  color: #483D8B;
 }

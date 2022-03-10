@@ -13,7 +13,8 @@
 
   &__heading {
     color: $color-secondary;
-    font-size: 50px;
+    font-family: $font-secondary;
+    font-size: 45px;
     font-weight: bold;
   }
 
@@ -24,12 +25,14 @@
 
   &__sub-heading-2 {
     color: $color-secondary;
+    font-family: $font-secondary;
     font-size: 40px;
     font-weight: bold;
   }
 
   &__description {
     font-size: 30px;
+    font-weight: normal;
   }
 
   &__button {
@@ -48,6 +51,7 @@
 
   &__heading {
     font-size: 35px;
+    font-weight: bold;
   }
 
   &__table {
@@ -59,11 +63,15 @@
     }
 
     &__points {
-    font-size: 35px;
+    font-size: 30px;
     }
 
     &__points-main {
       font-weight: bold;
+    }
+
+    &__points-sub {
+      font-style: italic;
     }
      
     &__image {
@@ -73,20 +81,4 @@
   
   }
 
-}
-
-.footer {
-  height: 150px;
-  background-color: $color-tertiary;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  &__links {
-    font-size: 20px;
-    font-weight: bold;
-    background-color: $color-tertiary;
-    margin: 10px;
-  }
 }
